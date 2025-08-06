@@ -11,6 +11,7 @@ public class Sample : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Debug.Log("Git成功");
     }
 
     // Update is called once per frame
